@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"ajlun","repository":"asia","path":"jordan/ajloun/ajlun","depth":3,"children":["al-hayy-al-gharbi","al-hayy-al-janubi","al-jabal-al-jadid","al-katrah","harat-al-haddadin","hayy-abu-al-ala-al-ma-arri","hayy-al-ba-aj","hayy-al-jami","hayy-al-maqatish","hayy-al-mu-mini","hayy-al-waqf","hayy-ar-rabadiyah","hayy-as-sanawbar","hayy-as-simadiyah","hayy-ayn-al-qantarah","hayy-dayr-al-latin","hayy-dayr-ar-rum","hayy-isawah","iraq-al-ba-uni","iraq-wahdan","mintaqat-abu-al-ghazlan","mintaqat-al-hawuz"]});
+export default directory;

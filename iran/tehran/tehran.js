@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"tehran","repository":"asia","path":"iran/tehran","depth":2,"children":["andisheh","baghestan","baqershahr","bumahen","chahar-dangeh","damavand","eslamshahr","fardis","ferdowsiyeh","ferunabad","firuzkuh","golestan","hasanabad","khabarabad","lavasan","mahdasht","malard","meshkin-dasht","mojtame-e-maskuni-ye-namju","morteza-gerd","nasim-shahr","nasimshahr","nasir-abaad","nasirshahr","ovrin","pakdasht","parand","pardis","pishva","qarchak","qiamdasht","qods","robat-karim","rudehen","sa-idabad","sabbashahr","safadasht","salehieh","shahedshahr","shahrak-e-ala-in","shahrak-e-qods","shahre-jadide-andisheh","shahriar","tajrish","varamin"]});
+export default directory;

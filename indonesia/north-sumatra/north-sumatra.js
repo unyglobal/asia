@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"north-sumatra","repository":"asia","path":"indonesia/north-sumatra","depth":2,"children":["bandar","barus","belawan","berastagi","binjai","deli-tua","gunungsitoli","kabanjahe","kisaran","labuhan-deli","lahewa","medan","padangsidempuan","pangkalan-brandan","pangururan","paropo","pekan-bahapal","pematangsiantar","perbaungan","percut","rantauprapat","sibolga","sidikalang","stabat","sunggal","tanjungbalai","tanjungtiram","tarutung","tebingtinggi","teluk-dalam","teluk-nibung","tongging"]});
+export default directory;

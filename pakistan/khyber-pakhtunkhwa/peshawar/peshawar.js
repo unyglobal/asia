@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"peshawar","repository":"asia","path":"pakistan/khyber-pakhtunkhwa/peshawar","depth":3,"children":["andar-sher","aslamabad","dhaki-manawar-shah","ganj-muhallah","ghanta-ghar","husainabad-colony","islamabad-colony","jahangir-pura","kabuli-thana","khudadad-colony","khyber-line","kohati-gate","lahori-gate","muhalla-kalan","muhalla-mution","muhalla-sathan","muhallah-fazal-ul-haq","munawar-shah-colony","nahlbandi","nishtarabad","pipal-mandi","qissa-khwani","qissa-khwani-chauki","sabzi-mandi","salim-colony","shadbad-colony","shahinabad","sheikhabad","sheikhabad-colony","zargarabad"]});
+export default directory;

@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"jilin","repository":"asia","path":"china/jilin","depth":2,"children":["antu","baishan","baishishan","changbai","changchun","dalai","dashitou","dehui","dongfeng","dunhua","erdaojiang","fate","gongzhuling","helong","hepingjie","huadian","huangnihe","huinan","hunchun","jiaohe","jishu","jiutai","kaitong","lishu","liuhe","meihekou","panshi","sanchazi","shuangliao","shuangyang","shulan","siping","songjianghe","songyuan","taonan","tonghua","tumen","wangqing","xinglongshan","yanji","yantongshan","zhenlai"]});
+export default directory;

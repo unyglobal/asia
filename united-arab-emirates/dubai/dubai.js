@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"dubai","repository":"asia","path":"united-arab-emirates/dubai","depth":2,"children":["abu-hayl","al-bada-a","al-furjan","al-karama","al-mizhar-first","al-murar-al-qadim","al-muteena","al-safa","al-waheda","al-warqaa","al-wasl","ar-rashidiyah","as-satwah","bur-dubai","business-bay","dayrah","dubai-festival-city","dubai-international-financial-centre","dubai-internet-city","dubai-investments-park","dubai-marina","dubai-silicon-oasis","hatta","hawr-al-anz","international-city","jebel-ali","jumayra","lahbab","mankhul","mirdif","nayf","the-palm-jumeirah","umm-suqaym","warisan"]});
+export default directory;

@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"bajil","repository":"asia","path":"yemen/al-hudaydah/bajil","depth":3,"children":["al-baghawi","al-baladiyah","al-barrah","al-hadaniyah","al-hijazi","al-jami-al-kabir","al-jazzarin","al-kadn","al-maghzi","al-mahkamah","al-markazi","al-mijlab","al-muwasalat","al-qaym","al-yusufi","as-sadah","as-salam","as-suq-al-qadim","ash-shaddad","ash-sharif","ash-shaykh-mazriyah","ash-shumayri","at-tawfiq","at-tijari","dayr-kaynah","mahall-al-qadam","shari-ishrin","shari-san-a","umar-suwayd"]});
+export default directory;

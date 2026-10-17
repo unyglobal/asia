@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"chiba","repository":"asia","path":"japan/chiba","depth":2,"children":["abiko","ajiki","asahi","choshi","futtsu","hasaki","ichihara","ichikawa","inzai","isumi","kamagaya","kamogawa","kashiwa","katori-shi","katsuura","kimitsu","kisarazu","makuhari","matsudo","minamiboso","minaminagareyama","mobara","nagareyama","narashino","narita","naruto","noda","oami","oamishirasato","ohara","omigawa","ryogoku","sanmu","sawara","shiroi","shisui","sodegaura","sosa","tateyama","togane","urayasu","yachimata","yokaichiba","yokoshiba","yotsukaido"]});
+export default directory;

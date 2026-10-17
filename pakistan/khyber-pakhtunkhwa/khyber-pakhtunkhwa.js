@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"khyber-pakhtunkhwa","repository":"asia","path":"pakistan/khyber-pakhtunkhwa","depth":2,"children":["abbottabad","akora-khattak","amangarh","baffa","bannu","bat-khela","battagram","buni","charsadda","chitral","dera-ismail-khan","dursh-khela","hangu","haripur","havelian","jahangira","jamrud","khalabat","kohat","kulachi","lachi","lakki","mansehra","mardan","mingora","musa-banda-musa-khan-kallay","nowshera-cantonment","nowshera-kalan","oghi","pabbi","paharpur","peshawar","risalpur-cantonment","sarai-naurang","shabqadar","shorkot","swabi","tangi","tank","thal","topi","tordher","upper-dir","utmanzai","zaida"]});
+export default directory;

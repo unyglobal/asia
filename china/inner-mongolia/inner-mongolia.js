@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"inner-mongolia","repository":"asia","path":"china/inner-mongolia","depth":2,"children":["baotou","bayan-hot","bayan-nur","beichengqu","chifeng","dalain-hob","dongsheng","e-erguna","ehen-hudag","erenhot","genhe","hailar","hohhot","hondlon","hulunbuir","jalai-nur","jiagedaqi","lingquan","manzhouli","mujiayingzi","ordos","oroqen-zizhiqi","pingzhuang","qingshan","salaqi","shiguai","tongliao","tongyangdao","ulanhot","ulanqab","wuda","wudan","wuhai","xilin-hot","xilinhot","yakeshi","zhalantun"]});
+export default directory;

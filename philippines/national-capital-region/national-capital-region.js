@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"national-capital-region","repository":"asia","path":"philippines/national-capital-region","depth":2,"children":["ayala-alabang","bagong-barrio","bagong-pagasa","bagong-silang","bagong-silangan","banco-filipino-homes","bayanan","bel-air","binondo","caloocan","calumpang","commonwealth","cupang","las-pinas","makati-city","malabon","mandaluyong","mandaluyong-city","manila","marikina-city","navotas","novaliches-proper","paco","paranaque-city","pasay","pasig-city","pateros","poblacion","port-area","putatan","quezon-city","quiapo","san-juan","taguig","talipapa","tanza","upper-bicutan","valenzuela"]});
+export default directory;

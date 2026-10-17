@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"western-visayas","repository":"asia","path":"philippines/western-visayas","depth":2,"children":["asia","bacolod-city","bago-city","binalbagan","binonga","cadiz","enrique-b-magalona","escalante","estancia","himamaylan","hinigaran","iloilo","isabela","kabankalan","kalibo","la-carlota","la-castellana","maao","manapla","mansilingan","murcia","pacol","pandan","paraiso","passi","pulupandan","roxas-city","sagay","sipalay","sumag","taloc","tinongan","ualog","victorias"]});
+export default directory;

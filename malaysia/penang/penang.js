@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"penang","repository":"asia","path":"malaysia/penang","depth":2,"children":["ayer-itam","balik-pulau","batu-feringgi","bayan-lepas","bukit-gemuroh","bukit-mertajam","bukit-tambun","bukit-tengah","butterworth","george-town","glugor","jawi","jelutong","kampung-sungai-ara","kampung-sungai-glugur","kampung-teluk-air-tawar","kampung-teluk-kumbar","kepala-batas","kubang-semang","nibong-tebal","paya-terubong","perai","permatang-kuching","relau","sungai-dua","sungai-jawi","tasek-glugor","val-dor"]});
+export default directory;

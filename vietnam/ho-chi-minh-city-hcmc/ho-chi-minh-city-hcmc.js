@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"ho-chi-minh-city-hcmc","repository":"asia","path":"vietnam/ho-chi-minh-city-hcmc","depth":2,"children":["ap-binh-chau","ap-phuoc-tinh","ben-cat","binh-thanh","can-gio","cho-lon","cu-chi","di-an","go-vap","ho-chi-minh-city","long-dien","nha-be","phu-my","quan-ba","quan-bon","quan-muoi","quan-muoi-mot","quan-nam","quan-sau","tan-binh","tan-uyen","thanh-pho-ba-ria","thi-tran-at-o","thi-tran-ngai-giao","thi-tran-phuoc-buu","thu-dau-mot","thu-uc","thuan-an","vung-tau","xa-long-hai","xom-my-xuan"]});
+export default directory;

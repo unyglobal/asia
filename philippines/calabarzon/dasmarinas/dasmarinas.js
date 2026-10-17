@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"dasmarinas","repository":"asia","path":"philippines/calabarzon/dasmarinas","depth":3,"children":["asuncion-village","dasmaville-subdivision","don-gregorio-heights-subdivision","emerald-crest-subdivision","fiesta-homes-subdivision","marilag-subdivision","medina-ville","rey-reyes-subdivision","rolando-francisco-subdivision","saint-mary-s-subdivision","san-lorenzo-heights-subdivision","satellite-homes-first","satellite-homes-second","wood-estate-village","zone-first-a"]});
+export default directory;

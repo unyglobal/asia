@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"dhaka-division","repository":"asia","path":"bangladesh/dhaka-division","depth":2,"children":["azimpur","bajitpur","bhairab-bazar","bhanga","bhatara","char-bhadrasan","demra","dhaka","dhanmondi","dohar","dukuria","faridpur","gazipur","gopalganj","gulshan","kafrul","kishorganj","madaripur","manikganj","matuail","mirpur-model-thana","mirzapur","motijheel","nagar-naluakot","nagarpur","narayanganj","narsingdi","palang","pallabi","paltan","ramna-maidan","sakhipur","savar","sonargaon","tangail","tungi","tungipara"]});
+export default directory;
