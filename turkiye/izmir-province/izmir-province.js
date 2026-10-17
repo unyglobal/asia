@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"izmir-province","repository":"asia","path":"turkiye/izmir-province","depth":2,"children":["aliaga","balatc-k","bay-nd-r","bergama","bornova","bostanl","cesme","cigli","evka-uc","foca","izmir","karabaglar","kars-yaka","kemalpasa","konak","kucukcigli","menderes","menemen","odemis","seferihisar","selcuk","semikler","tire","torbal","urla"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"izmir-province","repository":"asia","path":"turkiye/izmir-province","depth":2,"parent":"turkiye","children":["aliaga","balatc-k","bay-nd-r","bergama","bornova","bostanl","cesme","cigli","evka-uc","foca","izmir","karabaglar","kars-yaka","kemalpasa","konak","kucukcigli","menderes","menemen","odemis","seferihisar","selcuk","semikler","tire","torbal","urla"]});
+export const childModules = Object.freeze({"aliaga":"./aliaga/aliaga.js","balatc-k":"./balatc-k/balatc-k.js","bay-nd-r":"./bay-nd-r/bay-nd-r.js","bergama":"./bergama/bergama.js","bornova":"./bornova/bornova.js","bostanl":"./bostanl/bostanl.js","cesme":"./cesme/cesme.js","cigli":"./cigli/cigli.js","evka-uc":"./evka-uc/evka-uc.js","foca":"./foca/foca.js","izmir":"./izmir/izmir.js","karabaglar":"./karabaglar/karabaglar.js","kars-yaka":"./kars-yaka/kars-yaka.js","kemalpasa":"./kemalpasa/kemalpasa.js","konak":"./konak/konak.js","kucukcigli":"./kucukcigli/kucukcigli.js","menderes":"./menderes/menderes.js","menemen":"./menemen/menemen.js","odemis":"./odemis/odemis.js","seferihisar":"./seferihisar/seferihisar.js","selcuk":"./selcuk/selcuk.js","semikler":"./semikler/semikler.js","tire":"./tire/tire.js","torbal":"./torbal/torbal.js","urla":"./urla/urla.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"bursa","repository":"asia","path":"turkiye/bursa-province/bursa","depth":3,"children":["ahmetpasa","aktar-hussam","alt-parmak","bahar","c-rpan","doganbey","hac-ilyas","hoca-hasan","intizam","k-rca-ali","kiremitci","kogukc-nar","kuplup-nar","kurucesme","sahabettin-pasa","sakarya","santral-garaj","sehrekustu","selamet","selimiye","ulu"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"bursa","repository":"asia","path":"turkiye/bursa-province/bursa","depth":3,"parent":"turkiye/bursa-province","children":["ahmetpasa","aktar-hussam","alt-parmak","bahar","c-rpan","doganbey","hac-ilyas","hoca-hasan","intizam","k-rca-ali","kiremitci","kogukc-nar","kuplup-nar","kurucesme","sahabettin-pasa","sakarya","santral-garaj","sehrekustu","selamet","selimiye","ulu"]});
+export const childModules = Object.freeze({"ahmetpasa":"./ahmetpasa/ahmetpasa.js","aktar-hussam":"./aktar-hussam/aktar-hussam.js","alt-parmak":"./alt-parmak/alt-parmak.js","bahar":"./bahar/bahar.js","c-rpan":"./c-rpan/c-rpan.js","doganbey":"./doganbey/doganbey.js","hac-ilyas":"./hac-ilyas/hac-ilyas.js","hoca-hasan":"./hoca-hasan/hoca-hasan.js","intizam":"./intizam/intizam.js","k-rca-ali":"./k-rca-ali/k-rca-ali.js","kiremitci":"./kiremitci/kiremitci.js","kogukc-nar":"./kogukc-nar/kogukc-nar.js","kuplup-nar":"./kuplup-nar/kuplup-nar.js","kurucesme":"./kurucesme/kurucesme.js","sahabettin-pasa":"./sahabettin-pasa/sahabettin-pasa.js","sakarya":"./sakarya/sakarya.js","santral-garaj":"./santral-garaj/santral-garaj.js","sehrekustu":"./sehrekustu/sehrekustu.js","selamet":"./selamet/selamet.js","selimiye":"./selimiye/selimiye.js","ulu":"./ulu/ulu.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

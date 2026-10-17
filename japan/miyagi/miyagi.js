@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"miyagi","repository":"asia","path":"japan/miyagi","depth":2,"children":["higashimatsushima","ishinomaki","iwanuma","kakuda","kesennuma","kogota","kogota-ekimae","kurihara","matsushima","murata","naka-niida","natori-shi","okawara","osaki","rifu","shiogama","shiroishi","shobudahama","tagajo-shi","tome","tomiya","wakuya","watari","yamoto","yoshioka"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"miyagi","repository":"asia","path":"japan/miyagi","depth":2,"parent":"japan","children":["higashimatsushima","ishinomaki","iwanuma","kakuda","kesennuma","kogota","kogota-ekimae","kurihara","matsushima","murata","naka-niida","natori-shi","okawara","osaki","rifu","shiogama","shiroishi","shobudahama","tagajo-shi","tome","tomiya","wakuya","watari","yamoto","yoshioka"]});
+export const childModules = Object.freeze({"higashimatsushima":"./higashimatsushima/higashimatsushima.js","ishinomaki":"./ishinomaki/ishinomaki.js","iwanuma":"./iwanuma/iwanuma.js","kakuda":"./kakuda/kakuda.js","kesennuma":"./kesennuma/kesennuma.js","kogota":"./kogota/kogota.js","kogota-ekimae":"./kogota-ekimae/kogota-ekimae.js","kurihara":"./kurihara/kurihara.js","matsushima":"./matsushima/matsushima.js","murata":"./murata/murata.js","naka-niida":"./naka-niida/naka-niida.js","natori-shi":"./natori-shi/natori-shi.js","okawara":"./okawara/okawara.js","osaki":"./osaki/osaki.js","rifu":"./rifu/rifu.js","shiogama":"./shiogama/shiogama.js","shiroishi":"./shiroishi/shiroishi.js","shobudahama":"./shobudahama/shobudahama.js","tagajo-shi":"./tagajo-shi/tagajo-shi.js","tome":"./tome/tome.js","tomiya":"./tomiya/tomiya.js","wakuya":"./wakuya/wakuya.js","watari":"./watari/watari.js","yamoto":"./yamoto/yamoto.js","yoshioka":"./yoshioka/yoshioka.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

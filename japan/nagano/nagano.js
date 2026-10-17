@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"nagano","repository":"asia","path":"japan/nagano","depth":2,"children":["azumino","chikuma","chino","hotaka","iida","iiyama","ina","kamimaruko","karuizawa","kinoshita","komagane","komoro","matsumoto","minamiminowa","miyota","okaya","omachi","sakaki","saku","shimosuwa","shiojiri","suwa","suzaka","tomi","toyoshina","ueda"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"nagano","repository":"asia","path":"japan/nagano","depth":2,"parent":"japan","children":["azumino","chikuma","chino","hotaka","iida","iiyama","ina","kamimaruko","karuizawa","kinoshita","komagane","komoro","matsumoto","minamiminowa","miyota","okaya","omachi","sakaki","saku","shimosuwa","shiojiri","suwa","suzaka","tomi","toyoshina","ueda"]});
+export const childModules = Object.freeze({"azumino":"./azumino/azumino.js","chikuma":"./chikuma/chikuma.js","chino":"./chino/chino.js","hotaka":"./hotaka/hotaka.js","iida":"./iida/iida.js","iiyama":"./iiyama/iiyama.js","ina":"./ina/ina.js","kamimaruko":"./kamimaruko/kamimaruko.js","karuizawa":"./karuizawa/karuizawa.js","kinoshita":"./kinoshita/kinoshita.js","komagane":"./komagane/komagane.js","komoro":"./komoro/komoro.js","matsumoto":"./matsumoto/matsumoto.js","minamiminowa":"./minamiminowa/minamiminowa.js","miyota":"./miyota/miyota.js","okaya":"./okaya/okaya.js","omachi":"./omachi/omachi.js","sakaki":"./sakaki/sakaki.js","saku":"./saku/saku.js","shimosuwa":"./shimosuwa/shimosuwa.js","shiojiri":"./shiojiri/shiojiri.js","suwa":"./suwa/suwa.js","suzaka":"./suzaka/suzaka.js","tomi":"./tomi/tomi.js","toyoshina":"./toyoshina/toyoshina.js","ueda":"./ueda/ueda.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

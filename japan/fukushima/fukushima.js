@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"fukushima","repository":"asia","path":"japan/fukushima","depth":2,"children":["aizu-misato-machi","aizu-wakamatsu","bange","funehikimachi-funehiki","hobaramachi","iwaki","kitakata","koriyama","kumakura","miharu","minami-soma","motomiya","namie","nihommatsu","shirakawa","soma","sukagawa","tamura","yabuki","yanagawamachi-saiwaicho"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"fukushima","repository":"asia","path":"japan/fukushima","depth":2,"parent":"japan","children":["aizu-misato-machi","aizu-wakamatsu","bange","funehikimachi-funehiki","hobaramachi","iwaki","kitakata","koriyama","kumakura","miharu","minami-soma","motomiya","namie","nihommatsu","shirakawa","soma","sukagawa","tamura","yabuki","yanagawamachi-saiwaicho"]});
+export const childModules = Object.freeze({"aizu-misato-machi":"./aizu-misato-machi/aizu-misato-machi.js","aizu-wakamatsu":"./aizu-wakamatsu/aizu-wakamatsu.js","bange":"./bange/bange.js","funehikimachi-funehiki":"./funehikimachi-funehiki/funehikimachi-funehiki.js","hobaramachi":"./hobaramachi/hobaramachi.js","iwaki":"./iwaki/iwaki.js","kitakata":"./kitakata/kitakata.js","koriyama":"./koriyama/koriyama.js","kumakura":"./kumakura/kumakura.js","miharu":"./miharu/miharu.js","minami-soma":"./minami-soma/minami-soma.js","motomiya":"./motomiya/motomiya.js","namie":"./namie/namie.js","nihommatsu":"./nihommatsu/nihommatsu.js","shirakawa":"./shirakawa/shirakawa.js","soma":"./soma/soma.js","sukagawa":"./sukagawa/sukagawa.js","tamura":"./tamura/tamura.js","yabuki":"./yabuki/yabuki.js","yanagawamachi-saiwaicho":"./yanagawamachi-saiwaicho/yanagawamachi-saiwaicho.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

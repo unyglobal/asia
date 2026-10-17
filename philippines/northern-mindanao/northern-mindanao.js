@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"northern-mindanao","repository":"asia","path":"philippines/northern-mindanao","depth":2,"children":["balulang","boroon","bugo","cagayan-de-oro","dologon","don-carlos","gingoog","iligan","impasugong","jasaan","malaybalay","manolo-fortich","mantampay","maramag","mariano","nia-valencia","nunungan","oroquieta","ozamiz-city","tagoloan","tangub","tubod"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"northern-mindanao","repository":"asia","path":"philippines/northern-mindanao","depth":2,"parent":"philippines","children":["balulang","boroon","bugo","cagayan-de-oro","dologon","don-carlos","gingoog","iligan","impasugong","jasaan","malaybalay","manolo-fortich","mantampay","maramag","mariano","nia-valencia","nunungan","oroquieta","ozamiz-city","tagoloan","tangub","tubod"]});
+export const childModules = Object.freeze({"balulang":"./balulang/balulang.js","boroon":"./boroon/boroon.js","bugo":"./bugo/bugo.js","cagayan-de-oro":"./cagayan-de-oro/cagayan-de-oro.js","dologon":"./dologon/dologon.js","don-carlos":"./don-carlos/don-carlos.js","gingoog":"./gingoog/gingoog.js","iligan":"./iligan/iligan.js","impasugong":"./impasugong/impasugong.js","jasaan":"./jasaan/jasaan.js","malaybalay":"./malaybalay/malaybalay.js","manolo-fortich":"./manolo-fortich/manolo-fortich.js","mantampay":"./mantampay/mantampay.js","maramag":"./maramag/maramag.js","mariano":"./mariano/mariano.js","nia-valencia":"./nia-valencia/nia-valencia.js","nunungan":"./nunungan/nunungan.js","oroquieta":"./oroquieta/oroquieta.js","ozamiz-city":"./ozamiz-city/ozamiz-city.js","tagoloan":"./tagoloan/tagoloan.js","tangub":"./tangub/tangub.js","tubod":"./tubod/tubod.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;
